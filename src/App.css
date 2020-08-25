@@ -2,12 +2,25 @@
   display:flex;
 }
 .user-list{
-  width:70%;
-  border-right:2px solid gray;
-  margin:5px;
+  margin-left:350px;
   padding:5px;
-  text-align: center;
+  width:60%;
 }
 h2{
   text-align: center;
+}
+#logout{
+  display:none;
+}
+.cart{
+  margin-top:100px;
+  margin-left:50px;
+  position: fixed;
+}
+.total-user{
+  color:rgb(71, 97, 66);
+  margin-left:50px;
+  position:fixed;
+  margin-bottom:50px;
+  border-bottom:1px solid gray;
 }
